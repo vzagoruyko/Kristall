@@ -1,0 +1,7 @@
+Host: http://xn-----8kcrgnmblabn8bpel5n6a.xn--p1ai
+
+User-agent: *
+Disallow: /admin
+Disallow: /media
+Disallow: /static
+Sitemap: http://xn-----8kcrgnmblabn8bpel5n6a.xn--p1ai/sitemap.xml

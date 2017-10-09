@@ -1,0 +1,253 @@
+@media (min-width: 1200px) {
+    .card-hover:hover {
+    color: white;
+    background-color: #007E33;
+    }
+
+    .card-hover:hover .row {
+        background-color: #007E33;
+    }
+
+    .card-hover:hover svg path {
+        fill: #ffffff;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .card-hover:hover .btn {
+        background: transparent;
+        border-color: #ffffff;
+        color: #ffffff;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .card-hover:hover .btn:hover {
+        background: #ffffff;
+        border-color: #007E33;
+        color: #007E33;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card-hover:hover {
+    color: white;
+    background-color: #007E33;
+    }
+
+    .card-hover:hover .row {
+        background-color: #007E33;
+    }
+
+    .card-hover:hover svg path {
+        fill: #ffffff;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .card-hover:hover .btn {
+        background: transparent;
+        border-color: #ffffff;
+        color: #ffffff;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .card-hover:hover .btn:hover {
+        background: #ffffff;
+        border-color: #007E33;
+        color: #007E33;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 34em) {
+
+}
+
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Russo One', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+a {
+    color: #000000
+}
+
+a:hover {
+    color: #007E33;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin: 0;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+.jumbotron {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.row {
+    background: #ffffff;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.my-4 {
+    border-color: #007E33;
+    border-width: 5px;
+    width: 100px;
+}
+
+.btn {
+    border-radius: 0;
+    color: white;
+}
+
+.btn-primary {
+    background: #007E33;
+    border-color: #007E33;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    border-color: #007E33;
+    color: #007E33;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-secondary:hover {
+    background: transparent;
+    border-color: #CC0000;
+    color: #CC0000;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.dark {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+#bg-text {
+    text-align: center;
+    color: white;
+
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+}
+
+.hover-image {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .9);
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+}
+
+.hover-image:hover .hover-text {
+    opacity: 0.85;
+}
